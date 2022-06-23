@@ -10,5 +10,5 @@ module "aws-functions" {
 
 policy "restrict-ec2-instance-type" {
   source = "./aws/restrict-ec2-instance-type.sentinel"
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "advisory"
 }
